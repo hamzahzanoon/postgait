@@ -1,0 +1,200 @@
+
+.myProfiles h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FC746C;
+}
+
+.myProfile {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.myProfileInput {
+    display: flex;
+    gap: 6rem;
+}
+
+.profileBotton p ,
+.profileCeanter p ,
+.myProfileRectangle p,
+.myProfileInput p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #2B2B2B;
+}
+
+
+.profileBotton b ,
+.profileCeanter b ,
+.myProfileRectangle b,
+.myProfileInput b {
+    color: #FC746C;
+}
+
+.myProfileInput input {
+    background: #FFFFFF;
+    border: 1px solid #858C94;
+    border-radius: 8px;
+    outline: none;
+    padding: 10px 20px;
+    width: 140%;
+}
+
+.profileDownload {
+    position: relative;
+    cursor: pointer;
+    margin-top: 7rem;
+}
+
+.profileDownload input {
+    position: absolute;
+    bottom: 110px;
+    left: 155px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: none;
+    cursor: pointer;
+    border: 25px solid blue;
+    
+}
+
+.profileDownload .faArrowUp {
+    position: absolute;
+    bottom: 125px;
+    left: 173px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.myProfileRectangle input {
+    background: #FFFFFF;
+    border: 1px solid #858C94;
+    border-radius: 8px;
+    outline: none;
+    padding: 10px 20px;
+    width: 44%;
+}
+
+.myProfileRectangle select {
+    width: 100px;
+    background: #FFFFFF;
+    border: 1px solid #858C94;
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom: 40px;
+}
+
+.myProfileRectangle2 input {
+    width: 28%;
+    
+}
+
+.profileCeanter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.profileCeanter button ,
+.profileCeanter input {
+    width: 100%;
+    
+}
+
+.profileCeanter button {
+    background: #FFFFFF;
+    border: 1px solid #858C94;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.profileCeanter input {
+    background: #FFFFFF;
+    border: 1px solid #858C94;
+    border-radius: 8px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.profileBotton {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.profileBotton img {
+    top: 90px;
+}
+
+.profilesCelects {
+    position: relative;
+}
+
+.profilesCelects img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    left: 5px;
+    margin-top: 2px;
+}
+
+
+.profilesCelects input {
+    padding-left: 50px;
+}
+
+
+
+@media (min-width: 250px) and (max-width: 1000px) {
+    .myProfile {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .myProfileInput {
+        display: block;
+        gap: 6rem;
+    }
+    .myProfileInput input {
+        width: 100%;
+    }
+    .myProfileRectangle input {
+        width: 100%;
+    }
+    .profileCeanter {
+        grid-template-columns: 1fr;
+    }
+    .myProfileRectangle2 input {
+        
+        width: calc(100% - 110px);
+    }
+    .profileDownload {
+        margin-top: 0rem;
+    }
+    .profileDownload input {
+        bottom: 40px;
+        
+    }
+    .profileDownload .faArrowUp {
+        bottom: 55px;
+    }
+} 
+
+@media (min-width: 1000px) and (max-width: 1280px) {
+    .myProfileInput input {
+        width: 100%;
+    }
+    .myProfileInput {
+        gap: 1rem;
+    }
+}

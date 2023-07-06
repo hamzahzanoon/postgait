@@ -1,0 +1,143 @@
+.vector {
+    position: relative;
+}
+
+.title span {
+    color: #FC746C;
+}
+
+.v-vector {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.img-right {
+    height:910px;
+    right: 0px;
+    margin-top: -170px;
+   margin-left: 30px;
+}
+
+.img-right img {
+    height: 100%;
+}
+
+/****** *****/
+
+.erth {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin: 1rem 0;
+}
+
+.title .title2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title .title2 h1 {
+    height: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    margin-bottom: -20px;
+    color: #FC746C;
+}
+
+.title .title2 p {
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C757D;
+}
+
+.erth-imges {
+    display: flex;
+}
+
+.erth-imges img {
+   width: 250px;
+   height: 59.44px;
+   margin: 40px 20px;
+}
+
+.img_rigth {
+    margin-left: 70px;
+}
+
+@media (max-width: 768px) {
+    .img_rigth {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .erth-imges img {
+        width: 150px;
+        height: 40px;
+        margin: 20px auto;
+     }
+     .erth {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        margin: 1rem 0;
+    }
+    .img_rigth {
+        display: none;
+    }
+   .img_left {
+        display: none;
+    }
+}
+
+  @media (max-width: 1024px) {
+     .erth {
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        margin: 1rem 0;
+    }
+    .erth-imges img {
+        width: 100px;
+        height: 40px;
+        margin: 20px auto;
+     }
+     .title .title2 h1 {
+        width: 100%;
+        height: 20px;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 25px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        color: #FC746C;
+    }
+    .img_rigth {
+        margin-left: 170px;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    .v-vector {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .img-right {
+        display: none;
+    }
+    .img-left {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .img-left img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,728 @@
+.qtyShipment {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.qtyShipment b {
+    color: #FC746C;
+}
+
+.homeShipmentTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ProductshipmentInput {
+    position: relative;
+}
+
+.ProductshipmentInput input {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    width: 310px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    outline: none;
+    padding: 0 40px;
+}
+
+.ProductshipmentInput .shipmentFaMagniIcon {
+    position: absolute;
+    left: -305px;
+    top: -27px;
+}
+
+.topShosSwitch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topShosSwitch h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+
+.topShosSwitch .switch {
+    width: 412px;
+    height: 60px;
+    background: #F8F8FC;
+    border-radius: 50px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.switch button {
+    border: none;
+    background: none;
+}
+
+.switch .switchBtn {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #FC746C;
+}
+
+.boxSwitch {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #F8F8FC;
+    border-radius: 15px;
+}
+
+.boxSwitch h3 {
+    font-size: 20px;
+    color: #2B2B2B;
+    margin-bottom: 50px;
+}
+
+.boxSwitch h3 span {
+    color: #FC746C;
+}
+
+.boxCeanterSwitch {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100%;
+}
+
+.selectSwitch {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectSwitch span {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.selectSwitch span b {
+    color: #FC746C;
+}
+
+.selectSwitch select {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.selectSwitch select option {
+    position: absolute;
+    float: right;
+    color: #B3B3B3;
+ 
+}
+
+.selectSwitch select:valid {
+    padding-left: 50px;
+    color: #B3B3B3;
+}
+
+.selectSwitch img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 45px;
+    left: 10px;
+}
+
+.boxLeftCSwitch {
+    margin-left: 40px;
+}
+
+.boxLeftCSwitchParth span {
+    font-weight: bold;
+}
+
+.boxLeftCSwitchParth .rectangleSwitch {
+    position: relative;
+    width: 90%;
+    height: 100px;
+    background: #ECEFF1;
+    border-radius: 15px;
+    margin: 15px 0 35px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.rectangleSwitch::placeholder {
+    position: absolute;
+    left: 33%;
+    top: 40%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #858C94;
+}
+
+.boxLeftCSwitchParth .rectangleSwitchs {
+    width: 95%;
+    height: 100%;
+    background: #FEF1F0;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin: 15px 0 35px 0;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.rectangleSwitchs img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.rectangleSwitchs p:nth-child(1) {
+    font-weight: bold;
+}
+
+.rectangleSwitchs p:nth-child(2) {
+    margin-left: 10px;
+}
+
+
+.switchNumber {
+    border: 1px solid #858C94;
+    width: 140px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.switchNumber1,
+.switchNumber2 {
+    text-align: center;
+    border: 1px solid #858C94;
+    padding: 3px 15px;
+    border-radius: 10px;
+    background-color: #FEF1F0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.switchNumberZero {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rectangleSwitchsBotton {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.switchNumberButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.switchNumberButton button {
+    padding: 12px 40px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 30px;
+    background-color: #FC746C;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropDownShipment {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.dropDownShipment img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    top: 7px;
+    left: 25px;
+}
+
+
+.activeShipment {
+    position: relative;
+    text-align: center;
+    background-color: #ECEFF1;
+    padding: 15px 0;
+}
+
+.activeShipment span {
+    color: #858C94;
+    text-align: center; 
+}
+
+.activeShipment img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    top: 12px;
+    left: 60px;
+}
+
+
+/************ customer ************/
+
+.bodyProductSpans {
+    position: relative;
+    font-size: 30px;
+    margin-left: 20px;
+    color: #858C94;
+    cursor: pointer;
+    z-index: 8;
+}
+
+.bodyProductSpans::before {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 17px;
+    top: 20px;
+    right:-5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.customerIdentification {
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #6A6A6A;
+    padding-left: 20px;
+}
+
+.customerIdentification::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #FC746C;
+    border-radius: 50%;
+    left: 0;
+} 
+
+.customerNumber {
+    color: #FC746C;
+    font-weight: 400;
+}
+
+/************ ShipmentDesktop22 ************/
+
+.shipmentDesktopTabel {
+    position: relative;
+    width: 100%;
+    border: 2px solid #DFE0EB;
+    border-radius: 15px;
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px 40px;
+}
+
+.shDesTitle {
+    margin-bottom: 40px;
+}
+
+.shDesTitle h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+
+.shDesTitle span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+    margin-bottom: 40px;
+}
+
+.shipmentDeskHead th {
+    width: 20rem;
+}
+
+.shipmentDeskHead img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.shipmentDeskHead span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.44px;
+    color: #919699;
+}
+
+
+
+/***************************/
+.boxBlue,
+.boxYellow {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.boxBlue {
+    background-color: #00B1ED;
+}
+
+.boxYellow {
+    background-color: #FFC81A;
+}
+
+/************ ShipmentEnd25 ************/
+
+.shipmentEndTop {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+}
+
+.shipmentEndBath {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shipmentEndImg {
+    width: 100%;
+    height: 100%;
+}
+
+.shipmentEndImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.shipmentEndBath h6 {
+    background-color: #FBE4E4;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #FC746C;
+}
+
+.shipmentEndBath img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.ShipmentEnd25Head img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.ShipmentEnd25Head span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    color: #919699;
+}
+
+.ShipmentEnd25Head th:nth-child(5) {
+    width: 11rem;
+}
+
+.shipmentDesktBotton {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+/* .shipmentDesktBottonPath {
+    border: 1px solid #DFE0EB;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 3px 20px;
+    margin-top: 20px;
+} */
+
+/* .shipmentDesktBottonPath span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #FC746C;
+} */
+
+/* .shipmentDesktBottonPath img {
+    width: 110px;
+    object-fit: cover;
+} */
+
+.shipmentTchoss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shipmentTchoss div:nth-child(1) {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.shipmentTchoss div:nth-child(2) {
+    color: #FC746C;
+}
+
+.shipmentTchoss img {
+    width: 120px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.bodyNum {
+    position: absolute;
+    bottom: -27px;
+    right: 95px;
+    display: flex;
+}
+
+.bodyNum p:nth-child(1) {
+    margin-right: 120px;
+    font-weight: bold;
+}
+
+.bodyNum p:nth-child(2) {
+    width: 100%;
+    background-color: #FED5D2;
+    padding: 6px 15px;
+    border-radius: 15px;
+}
+
+@media (min-width: 1000px) and (max-width: 1280px) {
+    .activeShipment img {
+        left: 30px;
+        width: 25px;
+        height: 25px;
+    }
+    .dropDownShipment img {
+        width: 25px;
+        height: 25px;
+        top: 10px;
+        left: 10px;
+    }
+    .boxLeftCSwitchParth .rectangleSwitchs {
+        margin: 15px 0 15px 0;
+        padding: 0 0 0px 10px;
+        gap: 5px;
+    }
+    .rectangleSwitchs p:nth-child(2) {
+        margin-left: 0px;
+        font-size: 13px;
+    }
+    .switchNumberButton button {
+        padding: 12px 20px;
+    }
+    .shipmentEndBath p {
+        font-size: 10px;
+    }
+    .shipmentEndBath img {
+        margin-right: 3px;
+    }
+    .bodyNum {
+        position: absolute;
+        bottom: -25px;
+        right: 60px;
+        display: flex;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 950px) {
+    .boxCeanterSwitch {
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+    .boxLeftCSwitch {
+        margin-left: 0px;
+    }
+    .boxLeftCSwitchParth .rectangleSwitch {
+        width: 100%;
+        height: 80px;
+    }
+    .boxLeftCSwitchParth .rectangleSwitchs {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+        gap: 0px;
+    }
+    .switchNumberButton button {
+        padding: 12px 18px;
+    }
+    .shipmentDesktopTabel {
+        margin: 10px 0;
+        padding: 20px 10px;
+    }
+    .shipmentEndTop {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .shipmentEndBath p {
+        font-size: 14px;
+    }
+    .shipmentEndBath img {
+        margin-right: 3px;
+    }
+    .shipmentDesktBotton {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .bodyNum {
+        position: absolute;
+        bottom: -27px;
+        right: 30px;
+        display: flex;
+    }
+} 
+
+@media (max-width: 550px) {
+    .homeShipmentTop {
+        display: block;
+    }
+    .ProductshipmentInput input {
+        width: 94%;
+        margin-bottom: 10px;
+    }
+
+    .homeShops3 {
+        margin-bottom: 60px;
+    }
+    .topShosSwitch h5 {
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    .topShosSwitch .switch {
+        width: 250px;
+        height: 60px;
+        padding: 4px;
+
+    }
+    .switch button {
+        font-size: 13px;
+    }
+    .switch .switchBtn {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .boxSwitch h3 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .boxCeanterSwitch {
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+    .boxSwitch {
+        margin-top: 40px;
+        padding: 10px;
+    }
+    .boxLeftCSwitch {
+        margin-left: 0px;
+    }
+    .boxLeftCSwitchParth .rectangleSwitch {
+        width: 100%;
+        height: 80px;
+    }
+    .activeShipment img {
+        left: 10px;
+    }
+    .dropDownShipment img {
+        width: 25px;
+        height: 25px;
+        top: 10px;
+        left: 10px;
+    }
+    .boxLeftCSwitchParth .rectangleSwitchs {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+        gap: 0px;
+    }
+    .rectangleSwitchsBotton {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .shipmentDesktopTabel {
+        margin: 10px 0;
+        padding: 20px 10px;
+    }
+    .shipmentEndTop {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .shipmentEndBath p {
+        font-size: 14px;
+    }
+    .shipmentEndBath img {
+        margin-right: 3px;
+    }
+    .shipmentDesktBotton {
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .bodyNum {
+        position: absolute;
+        bottom: -27px;
+        right: 30px;
+        display: flex;
+    }
+} 
+
+@media (max-width: 450px) {
+    .rectangleSwitch::placeholder {
+        left: 22%;
+        top: 30%;
+    }
+}

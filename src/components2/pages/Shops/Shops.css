@@ -1,0 +1,391 @@
+.homeShops {
+    width: calc(100% - calc(270px));
+    float: right;
+    padding: 30px 30px 0 30px;
+    background-color: #f3f6f9;
+    min-height: 125vh;
+}
+
+.homeShops2 p {
+    color: #757575;
+}
+
+.homeShops2 i {
+    color: #757575;
+}
+
+.topShos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.topShos h3 {
+    font-size: 35px;
+}
+
+.topShos .doard-path2 {
+    background-color: #FC746C;
+    cursor: pointer;
+}
+
+.topShos p {
+    color: #fff !important;
+    font-size: 17px;
+    margin-left: 12px;
+}
+
+.topShos i {
+    color: #fff;
+    font-size: 17px;
+    margin: 0 15px 0 15px;
+}
+
+.boxShos {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    max-height: 100%;
+}
+
+.boxShos p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #6A6A6A;
+    margin: 30px 0;
+}
+
+.boxShosPath {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 50px 30px 30px 30px;
+    background-color: #f3f6f9;
+    border-radius: 15px;
+}
+
+.shopImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shopContainr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.shopContainr2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.shopContainr2 h5 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.shopContainr2 input {
+    position: relative;
+    padding: 8px 50px;
+    border-radius: 6px;
+    border: 1px solid #9b9999;
+    outline: none;
+}
+
+.shopContainr2 img {
+    position: absolute;
+    top: 42px;
+    left: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+.boxShosPath h6 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.boxShosPath span {
+    color: #FC746C;
+}
+
+.shopButton {
+    position: relative;
+    display: flex;
+}
+
+.shopButton img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 40px;
+    object-fit: cover;
+    margin-left: 8px;
+}
+
+.shopButton button {
+    width: 120px;
+    float: right;
+    padding: 8px 50px;
+    border-radius: 6px;
+    border: 1px solid #9b9999;
+    outline: none;
+    margin: 35px 0 0px 0px;
+    background-color: #FC746C;
+    color: #fff;
+}
+
+.buttonLeft {
+    margin-right: 20px;
+}
+
+/************* Products *************/
+
+.ProductTop {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProductTop input {
+    position: absolute;
+    width: 310px;
+    height: 40px;
+    left: 240px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    outline: none;
+    padding-left: 40px;
+}
+
+.ProductTop .faMagnifyingGlass {
+    position: absolute;
+    left: 250px;
+    font-size: 20px;
+}
+
+.ProductTop input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #86898E;
+}
+
+.ProductVector {
+   width: 120px; 
+   padding: 13px 20px; 
+   background: #FFFFFF;
+   border: 1px solid #DDE2E4;
+   border-radius: 6px;
+   color: #5B6871;
+   margin-right: 20px;
+   cursor: pointer;
+}
+
+.ProductVector .faFilter {
+    margin-right: 10px;
+}
+
+.postgaitProduct h6 {
+    margin: 40px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+
+.productSpan {
+    color: #FC746C;
+    margin-right: 5px;
+}
+
+.boxProduct img {
+    width: 27px;
+    height: 27px;
+    object-fit: cover;
+}
+ 
+.productSpans span {
+    font-size: 10px;
+    color: #858C94;
+}
+
+.bodyProductSpan {
+    position: relative;
+    font-size: 30px;
+    margin-right: -30px;
+    margin-left: 40px;
+    color: #858C94;
+    cursor: pointer;
+    z-index: 8;
+}
+
+.bodyProductSpan::before {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 17px;
+    top: 20px;
+    right:-5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.productsHead th {
+    width: 10rem;
+}
+
+/************* Classifications *************/
+
+.classificatio img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+ 
+.HRproduct::before {
+    position: absolute;
+    content: "";
+    width: 97%;
+    height: 2px;
+    background-color: #dfdddd;
+}
+
+.classificatio td:nth-child(1) {
+    width: 20rem;
+}
+
+.classificatio td:nth-child(2) {
+    width: 20rem;
+}
+
+.classificatio td:nth-child(3) {
+    width: 15rem;
+}
+
+.classificatio td:nth-child(4) {
+    width: 15rem;
+}
+
+/*******************************/
+
+
+.boxProduct2 {
+    border-radius: 15px 0 0 0; 
+}
+
+.boxProduct3 {
+    border-radius: 0 15px 0 0; 
+}
+
+/************* Paginations *************/
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 550px) {
+    .homeShops {
+        width: calc(100% - calc(0px));
+        padding: 30px 7px 0 7px;
+    }
+    .boxShosPath {
+        grid-template-columns: 1fr;
+        padding: 30px 10px 10px 10px;
+    }
+    .shopContainr {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .boxShos {
+        padding: 7px;
+    }
+    .shopContainr2 input {
+        width: 95%;
+        padding: 5px 40px;
+        margin-bottom: 30px;
+    }
+    .buttonLeft {
+        margin-right: 10px;
+    }
+    .ProductTop {
+        display: block;
+        width: 100px;
+    }
+    .ProductTop input {
+        display: none;
+    }
+    .ProductTop h3 {
+        font-size: 25px;
+    }
+    .ProductVector {
+        width: 100px; 
+        padding: 8px 10px; 
+        margin-right: 0px;
+        float: right;
+        margin-top: 10px;
+     }
+     .topShos .doard-path2 {
+        width: 150px;
+        float: right;
+        margin-top: 10px;
+        padding: 0;
+    }
+    .ProductTop .faMagnifyingGlass {
+        display: none;
+    }
+   td {
+       min-width: 13rem;
+   }
+   th {
+       min-width: 13rem;
+   }
+}
+
+@media (min-width: 550px) and (max-width: 1025px) {
+    .homeShops {
+        width: calc(100% - calc(0px));
+    }
+    .boxShosPath {
+        grid-template-columns: 1fr;
+    }
+    .ProductTop input {
+        width: 220px;
+        left: 140px;
+        padding-left: 40px;
+    }
+    .ProductTop .faMagnifyingGlass {
+        left: 150px;
+    }
+    .cit h3 {
+        font-size: 20px;
+    }
+    .cit input {
+        width: 180px !important;
+    }
+    .cit input::placeholder {
+        font-size: 10px;
+    }
+    .cit .faMagnifyingGlass {
+        top: 7px !important;
+    }
+}

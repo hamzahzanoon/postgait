@@ -1,0 +1,160 @@
+
+
+/* .c-cards-mane {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+} */
+
+.main-main {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.c-card {
+    width: 340px;
+    height: 450px;
+    margin: 0 0 60px 30px;
+    border-radius: 12px;
+    background-color: #F8F5FF;
+    cursor: pointer;
+}
+
+.c-card a {
+    text-decoration: none;
+}
+
+.c-card-img {
+    position: relative;
+    background-image: linear-gradient(
+         
+    rgba(254, 199, 196, 1) 0%,
+    rgba(254, 199, 196, 1) 100%
+  ),
+  url("../../../images/image_1643715361317829760.png.jpg");
+    background-color: rgba(0, 0, 0, 0.9);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.c-card-img p {
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 19px;
+}
+
+.c-card-img p::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 2px;
+    background-color: #fff;
+    bottom: 110px;
+    margin-left: 45px;
+} 
+
+.c-card-img p::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+    bottom: 100px;
+    margin-left: 70px;
+} 
+
+.card-bottom p {
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #263238;
+}
+
+.card-bottom span {
+    margin-left: 20px;
+}
+
+.card-bottom i {
+    color: #FC746C;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .main-main {
+      display: grid;
+      grid-template-columns: repeat(2 , 1fr);
+   }
+   .c-card {
+    width: 320px;
+    margin: 20px auto;
+  }
+}  
+@media (max-width: 550px) {
+    .main-main {
+      display: grid;
+      grid-template-columns: repeat(1 , 1fr);
+   }
+   .c-card {
+    width: 330px;
+    height: 450px;
+    margin: 20px auto;
+}
+   .c-card-img p::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 2px;
+    background-color: #fff;
+    bottom: 110px;
+    margin-left: 45px;
+} 
+
+.c-card-img p::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+    bottom: 100px;
+    margin-left: 70px;
+} 
+}
+
+@media (max-width: 411px) {
+    .main-main {
+      display: grid;
+      grid-template-columns: repeat(1 , 1fr);
+   }
+   .c-card-img p::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 2px;
+    background-color: #fff;
+    bottom: 110px;
+    margin-left: 25px;
+} 
+
+.c-card-img p::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+    bottom: 100px;
+    margin-left: 50px;
+   }
+   .c-card {
+    width: 300px;
+    height: 450px;
+    margin: 20px auto;
+} 
+}

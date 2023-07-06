@@ -1,0 +1,70 @@
+.h-card {
+    padding: 1px 0;
+    background: linear-gradient(90deg, #FFE3E1 42.71%, rgba(255, 171, 165, 0.5) 71.35%, rgba(255, 157, 150, 0.35) 100%);
+}
+
+.title2 h1 {
+    color: #FC746C;
+}
+
+.print2 {
+    width: 330px;
+    height: 340px;
+    padding: 20px 10px;
+    margin-bottom: 50px;
+    background: #F8F1F3;
+    box-shadow: 0px 0px 30px #DDDDDD;
+    border-radius: 10px;
+}
+
+.print2 img {
+    border-radius: 50%;
+    box-shadow:0px 0px 10px #0000002d;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+}
+
+.print2 h3 {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    color: #101621;
+}
+
+.print2 span {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 31px;
+align-items: center;
+text-align: center;
+color: #73737B;
+}
+
+
+
+@media (max-width: 1024px) {
+    .a-print {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .print2 {
+        text-align: center;
+        margin: 20px auto;
+ }
+}
+
+@media (max-width: 550px) {
+    .a-print {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .print2 {
+        text-align: center;
+        margin: 20px auto;
+ }
+}
+

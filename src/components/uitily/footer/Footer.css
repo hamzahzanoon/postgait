@@ -1,0 +1,18 @@
+/* .subsidiary {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .co-footer {
+    padding: 0 0;
+   }  */
+
+@media (max-width: 550px) {
+   .new_footer {
+    text-align: center;
+   }
+   .name-top {
+    margin-top: 20px;
+   }
+}

@@ -1,0 +1,336 @@
+
+
+.r-regester {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.img-regester {
+    position: relative;
+    top: 0px;
+    left: 0;
+    background-image: url("../../../images/shape1.png.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.img-regester .regester-img1 {
+    position: absolute;
+    width: 25%;
+    object-fit: cover;
+    top: 10%;
+    left: 10%;
+}
+
+.img-regester .regester-img2 {
+    position: absolute;
+    width: 50%;
+    object-fit: cover;
+    top: 24%;
+    left: 30%;
+}
+
+.regester-color {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    /* background-color: #000; */
+    border-radius: 50%;
+    background: #F9C0BD;
+    opacity: 0.8;
+    filter: blur(75px);
+    top: 10%;
+    left: 30%;
+}
+
+.img-regester h3,
+.img-regester h6 {
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    width: 400px;
+    line-height: 48px;
+    margin-top: 10px;
+    z-index: 999;
+}
+
+.img-regester span {
+    color: #FC746C;
+}
+
+/* .RecoveryForm {
+    margin: 50rem 0;
+} */
+
+
+
+/********** regesterform **********/
+
+.regesterform {
+    margin: 30px 0;
+}
+
+.regesterform h3 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   display: flex;
+   align-items: center;
+   color: #000000;
+}
+
+.regesterform h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    color: #FC746C;
+ }
+
+ .my-form {
+    width: 75%;
+ }
+
+ .my-form input,
+ select {
+   padding: 15px 20px;
+   background: #EBF0F6;
+   border: 1px solid #EBF0F6;
+   border-radius: 10px;
+   outline: none;
+}
+
+.my-form .inputform {
+   width: 100%;
+}
+
+.my-form .inputform-2 {
+    width: 69% !important;
+    margin-left: 10px;
+}
+
+.my-form span {
+    color: #EE3F36;
+}
+
+.my-form .inputform-3 {
+    margin-right: 10px;
+}
+
+.my-form .inputform-4 {
+    background-color: #EE3F36;
+    color: #EBF0F6;
+}
+
+.orform {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 120px 0 0;
+    color: #ACACAC;
+}
+
+.orform p::before {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 2px;
+    background-color: #CFCFCF;
+    right: 60px;
+    margin-top: 10px;
+
+} 
+
+.orform p::after {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 2px;
+    background-color: #CFCFCF;
+    left: 60px;
+    margin-top: 10px;
+}
+
+.regesterform h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #646464;
+    margin-left: 35px;
+}
+
+.regesterform a {
+    text-decoration: none;
+    color: #EE3F36;
+}
+
+/*********** Recovery *********/
+
+.Recovery h3 {
+    width: 200px;
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    top: 12rem;
+}
+.img-regester h6 {
+   font-size: 20px;
+   top: 20rem;
+   width: 300px;
+}
+
+/* .loginForm {
+    margin: 10rem 0;
+} */
+
+
+/*****************/
+
+.RecoveryForm {
+    margin: 16rem 0;
+}
+
+@media (max-width: 921px) {
+    .r-regester {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-regester h3 {
+        top: 10%;
+        left: 10%;
+        width: 300px;
+    }
+    .img-regester .regester-img1 {
+        width: 50%;
+        top: 8%;
+        left: 10%;
+    }
+    .img-regester .regester-img2 {
+        position: absolute;
+        width: 50%;
+        object-fit: cover;
+        top: 40%;
+        left: 30%;
+    }
+    
+    .regester-color {
+        width: 300px;
+        height: 300px;
+        top: 30%;
+        left: 10%;
+    }
+    .img-regester {
+        height: 60vh;
+    }
+    .regesterform h3,
+    .regesterform h2 {
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    .my-form {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .img-regester h3 {
+        top: 20%;
+        z-index: 999;
+    }
+    .Recovery h3 {
+        font-size: 27px;
+        font-weight: bold;
+        position: absolute;
+        top: 6rem;
+    }
+    .img-regester h6 {
+        font-size: 20px;
+        top: 9rem;
+        width: 300px;
+    }
+    .RecoveryForm {
+        margin: 4rem 0;
+    }
+    .RecoveryForm {
+        margin: 4rem 0;
+    }
+    .orform {
+        text-align: center;
+        margin: 20px 0px 0 0;
+    }
+    
+    .orform p::before {
+        right: 90px;
+    } 
+    
+    .orform p::after {
+        left: 90px;
+    }
+}
+
+@media (max-width: 360px) {
+    .my-form .inputform-2 {
+        width: 67%;
+        margin-left: 10px;
+        float: right;
+
+    }
+}
+
+@media (min-width: 530px) {
+    .my-form .inputform-2 {
+        width: 78%;
+        margin-left: 10px;
+        float: right;
+
+    }
+}
+
+@media (min-width: 700px) {
+    .my-form .inputform-2 {
+        width: 78%;
+        margin-left: 10px;
+        float: right;
+    }
+    .Recovery h3 {
+        font-size: 27px;
+        font-weight: bold;
+        position: absolute;
+        top: 13rem;
+    }
+    .img-regester h6 {
+        font-size: 20px;
+        top: 16rem;
+        width: 300px;
+     }
+}
+
+@media (min-width: 1020px) {
+    .Recovery h3 {
+        width: 200px;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        top: 12rem;
+    }
+    .img-regester h6 {
+        font-size: 20px;
+        top: 20rem;
+        width: 300px;
+     }
+}
+
+
+
+/* @media (max-width: 1282px) {
+    .my-form .inputform-2 {
+        width: 20%;
+        margin-left: 10px;
+    }
+} */

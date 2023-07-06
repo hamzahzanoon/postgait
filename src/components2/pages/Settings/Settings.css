@@ -1,0 +1,122 @@
+.settingsCeanter {
+    border: 2px solid #DFE0EB;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.settingsCeanter h5 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.settingsCeanterTop .selectSwitch select {
+    cursor: pointer;
+    background: #ECECEC;
+
+}
+
+.settingsTop h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FC746C;
+}
+
+.settingsTop p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #6A6A6A;
+}
+
+.settingsBotton {
+    border: 2px solid #DFE0EB;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.settingsCeanterTop {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+}
+
+
+.settingsInputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.settingsInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsInput input {
+    width: 80%;
+    background: #ECECEC;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.settingImg img {
+    float: right;
+}
+
+.settingsImg {
+    position: relative;
+    background-color: #ECECEC !important;
+    padding: 15px 0 !important;
+    color: #858C94 !important;
+}
+
+.settingsImg img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    top: 8px;
+}
+
+
+@media (max-width: 850px)  {
+    .settingsCeanter {
+        padding: 10px;
+    }
+    .settingsCeanterTop {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .settingsBotton {
+        padding: 10px;
+    }
+    .settingsInputs {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .settingsInput input {
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1028px) {
+    .settingsCeanterTop {
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 10px;
+    }
+}

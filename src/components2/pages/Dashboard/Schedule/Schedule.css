@@ -1,0 +1,142 @@
+.schedule-prodact {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    width: calc(100% - calc(270px));
+    float: right;
+    padding: 50px 0;
+    background-color: #f3f6f9;
+    height: 100%;
+}
+
+.group2 {
+    width: 96%;
+}
+
+.headShops img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.scheduleTable span {
+    font-size: 14px;
+    color: #919699;
+}
+
+.scheduleTable img {
+    margin-right: 5px;
+}
+
+table tr {
+    text-align: center;
+}
+
+.blue {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue b:nth-child(2) {
+    color: #367BF5;
+    font-weight: 200;
+}
+
+.blue.yellow b:nth-child(2) {
+    color: #F3AA18;
+    font-weight: 200;
+}
+
+.blue b:nth-child(1) {
+    font-weight: 500;
+}
+
+.hr::before {
+    position: absolute;
+    content: "";
+    width: 700px;
+    height: 2px;
+    background-color: #E3E5E5;
+}
+
+th , td {
+    padding: 1rem;
+    border-collapse: collapse;
+    text-align: center;
+} 
+
+main.table {
+    height: 100%;
+    overflow: hidden;
+}
+
+.table_body {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+}
+
+.table_body::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table_body::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.table_body:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #FED5D2;
+}
+
+.scheduleHead th:nth-child(1) {
+    width: 10rem;
+}
+
+.scheduleHead th:nth-child(2) {
+    width: 1rem;
+}
+
+.scheduleHead th:nth-child(3) {
+    width: 1rem;
+}
+
+.scheduleHead th:nth-child(4) {
+    width: 10rem;
+}
+
+.scheduleHead th:nth-child(5) {
+    width: 11rem;
+}
+
+.scheduleBody td {
+    width: 8rem;
+}
+
+@media (max-width: 550px) {
+    .schedule-prodact {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: calc(100% - calc(0px));
+        float: right;
+        padding-left: 10px;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 1025px){
+    .schedule-prodact {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: calc(100% - calc(0px));
+        float: right;
+    }
+}

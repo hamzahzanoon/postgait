@@ -1,0 +1,486 @@
+
+
+
+.walletTop {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F9FBFC;
+    border-radius: 15px 15px 20px 20px;
+    padding: 20px;
+}
+
+.walletTop h3 {
+    margin-bottom: 20px;
+}
+
+.walletImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.walletImg img {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+
+.walletImg span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #242934;
+}
+
+.walletNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.walletNumber span {
+    margin: 0 10px;
+}
+
+.walletBotton h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FC746C;
+}
+
+.walletBotton span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #858C94;
+}
+
+.walletInput {
+    position: relative;
+}
+
+.walletInput span {
+    position: absolute;
+    right: 120px;
+    top: 35px;
+    text-transform: uppercase;
+}
+
+.walletTitle h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FC746C;
+    margin: 30px 0; 
+}
+
+.walletsSpanss th:nth-child(1) {
+    width: 9.5rem;
+}
+.walletsSpanss th:nth-child(2) {
+    width: 11rem;
+}
+.walletsSpanss th:nth-child(3) {
+    width: 13rem;
+}
+.walletsSpanss th:nth-child(5) {
+    width: 10.5rem;
+}
+.walletsSpanss th:nth-child(6) {
+    width: 9rem;
+}
+
+.walletsSpans img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+/************* BankAccounts *************/
+
+.bankAccountsTop {
+    position: relative;
+}
+
+.bankAccountsTop h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: -0.022em;
+    color: #252C32;
+}
+
+.bankAccountsTop p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #6A6A6A;
+}
+
+.bankAccountsTop span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #6A6A6A;
+    margin-left: 20px;
+} 
+
+
+.bankAccountsTop b::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #FC746C;
+    left: 5px;
+    margin-top: -5px;
+}
+
+.settingsInput input {
+    height: 55px;
+}
+
+.bankAccount input  {
+    padding-left: 53px !important;
+}
+
+.bankAccount img {
+    position: absolute;
+    top: 35px;
+}
+
+.bankAccountInput {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.bankAccountInput input {
+    margin: 20px 0;
+    width: 80%;
+    background: #ECECEC;
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+}
+
+.walletSelects {
+    width: 80%;
+}
+
+.walletSelects button {
+    width: 100%;
+    background: #ECECEC;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    padding: 15px 0px;
+    color: #858C94;
+}
+
+
+
+.bankAccountsImg {
+    width: 100%;
+}
+
+.bankAccountsImg img {
+    width: 100%;
+}
+
+.bankAccount {
+    position: relative;
+}
+
+.bankAccount input {
+    background: #ECECEC;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 15px 15px 15px 60px;
+}
+
+.bankAccount img {
+    position: absolute;
+}
+
+/************* PaymentMethods *************/
+
+.boxPayment {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 70px;
+}
+
+.boxPayment h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #200E32;
+}
+
+/************************************/
+
+.radioGroupTitle {
+    color: #200E32;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.radioGroup1 {
+    border-radius: 8px;
+    border: 2px solid #DFE0EB;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+    width: 80%;
+    background: #fff;
+}
+
+.radioGroup1:hover {
+    background: #F0F1F1;
+}
+
+.radioGroup1:focus-within {
+    background: #F0F1F1;
+}
+
+/* button {
+  all: unset;
+} */
+
+.RadioGroupRoot {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.RadioGroupItem {
+  border: 1px solid #FC746C;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px #FC746C;
+}
+
+.RadioGroupIndicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.RadioGroupIndicator::after {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #FC746C;
+}
+
+.LabelS {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.LabelS img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+
+
+/************* PaymentMethods2 *************/
+
+
+.methodsImg {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px 0 0 50px;
+}
+
+.methodsImg img {
+    width: 100%;
+}
+
+.methodsImg2 {
+    width: 100%;
+}
+
+.methodsImg2 img {
+    width: 100%;
+}
+
+.paymentMethodsInputs {
+    display: flex;
+}
+
+.paymentMethodsInputs span {
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.paymentMethodsInputs input {
+    width: 100px;
+    background: #E2E6EE;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.paymentMethodsInputs .sheet {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 0 0;
+}
+
+
+.selectSwitch input,.sheet input {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border: 1px solid #E2E6EE;
+    box-shadow: 0px 4px 18px rgba(158, 168, 189, 0.31);
+    border-radius: 10px;
+}
+
+.selectSwitch2 input , .sheets input {
+    background: #E2E6EE;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.settingsCeanters {
+    border: none;
+}
+
+
+@media (max-width: 850px) {
+    .walletTop {
+        padding: 10px;
+    }
+    .walletImg img {
+        margin: 0 5px;
+    }
+    .walletNumber {
+        margin: 0 5px;
+    }
+    
+    .walletNumber span {
+        margin: 0 5px;
+    }
+    .walletImg span {
+        width: 110px;
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .walletInput {
+        margin-bottom: 30px;
+    }
+    .walletInput input::placeholder {
+        font-size: 10px;
+    }
+    .walletInput span {
+        position: absolute;
+        right: 20px;
+        top: 35px;
+        text-transform: uppercase;
+    }
+    .bankAccountsImg {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .bankAccountInput input {
+        width: 100%;
+    }
+    
+    .walletSelects {
+        width: 100%;
+    }
+    .boxPayment {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+    .chekInput {
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .methodsImg {
+        margin: 70px 0px 30px 50px;
+    }
+    .radioGroup1 {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1028px) {
+    .walletInput input::placeholder {
+        font-size: 9px;
+    }
+    .walletInput span {
+        position: absolute;
+        right: 100px;
+        top: 35px;
+        text-transform: uppercase;
+    }
+    .boxPayment {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+    
+}

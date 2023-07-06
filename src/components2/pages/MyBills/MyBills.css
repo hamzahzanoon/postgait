@@ -1,0 +1,63 @@
+.myBillSpan {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FC746C;
+}
+
+.myBillsImg {
+    border: 1px solid #FC746C;
+    padding: 5px;
+    border-radius: 8px;
+    color: #FC746C;
+    font-size: 12px;
+    float: right;
+    cursor: pointer;
+}
+
+.myBillsImg img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.myBillsTables td:nth-child(5) {
+    width: 23rem;
+}
+
+.myBillsTableLeft span {
+    margin-left: 80px;
+}
+
+.myBillsTableLeft small {
+    font-size: 10px;
+}
+
+.myBillsTableImg img {
+    width: 100px;
+    height: 30px;
+}
+
+@media (min-width: 250px) and (max-width: 1024px) {
+    .myBillsImg {
+        padding: 3px;
+        border-radius: 8px;
+        font-size: 8px;
+    }
+    .myBillsImg img {
+        width: 15px;
+        height: 15px;
+        margin-left: 3px;
+    }
+    .myBillsTableLeft span {
+        margin-left: 0px;
+    }
+    .myBillsTableImg img {
+        width: 90px;
+        height: 25px;
+    }
+}

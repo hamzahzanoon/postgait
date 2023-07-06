@@ -1,0 +1,113 @@
+
+.c-cards-img {
+    position: relative;
+    background-image: linear-gradient(
+         
+    rgba(254, 199, 196, 1) 0%,
+    rgba(254, 199, 196, 1) 100%
+  ),
+  url("../../../images/image_1643715361317829760.png.jpg");
+    background-color: rgba(0, 0, 0, 0.9);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    border-radius: 60px;
+    margin-bottom: 30px;
+}
+
+.c-cards-img p {
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    padding: 200px 300px 0px 300px;
+    color: #FFFFFF;
+}
+
+.c-cards-img p::before {
+    content: "";
+    position: absolute;
+    width: 580px;
+    height: 2px;
+    background-color: #fff;
+    top: 105%;
+} 
+
+.c-cards-img p::after {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 2px;
+    background-color: #fff;
+    top: 110%;
+    left: 31%;
+} 
+
+.cards-Path {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-Path p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #263238;
+}
+
+.cards-Path span {
+    margin-right: 20px;
+}
+
+.cards-Path i {
+    color: #FC746C;
+    font-size: 20px;
+}
+
+.Everyone {
+    padding: 50px 0 100px 20px;
+}
+
+.Everyone p {
+    line-height: 35px;
+}
+
+.Products p {
+    padding-left: 20px;
+}
+
+@media (max-width: 912px) {
+    .c-cards-img p {
+        font-size: 25px;
+        padding: 200px 15px 0px 15px;
+    }
+    .cards-Path {
+        display: block;
+    }
+    .cards-Path p {
+        line-height: 35px;
+    }
+    .c-cards-img p::before {
+        display: none;
+    } 
+    
+    .c-cards-img p::after {
+        display: none;
+    } 
+    .Everyone {
+        padding: 40px 0 50px 0px;
+    }
+    .Products h6 {
+        line-height: 28px;
+    }
+    .Products p {
+        padding-left: 10px;
+    }
+}

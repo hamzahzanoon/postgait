@@ -1,0 +1,49 @@
+.h-about {
+    padding-bottom: 6rem;
+}
+
+.a-print {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.print {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.print h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #373744;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.print span {
+    width: 200px;
+    height: 42px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    align-items: center;
+    text-align: center;
+    
+    color: #373744;
+}
+
+@media (max-width: 550px) {
+    .a-print {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .print {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+}
